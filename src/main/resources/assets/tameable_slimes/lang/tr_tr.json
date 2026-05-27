@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Evcilleştirilebilir Slime\u0027lar Renkleri Birleştirir",
+  "gamerule.TameableSlimes_SpawnRate": "Uysallaştırılabilir Slime\u0027ların Oluşma Oranı",
+  "gamerule.TameableSlimes_DyedRate": "Boyandırılabilir Slime\u0027lar Oranı",
+  "gamerule.TameableSlimes_MergeColors.description": "Zaten Boyanmış Bir Slime\u0027ı Boyamak, RGB Sistemi Kullanarak Boyaları Birleştirir",
+  "gamerule.TameableSlimes_Living_DropRate.description": "Slimeball\u0027ın ölüm ganimetinden Canlı Slimeball ile değiştirilme şansının %",
+  "gamerule.TameableSlimes_SpawnRate.description": "Vanilla Slime\u0027ın Doğuşta Evcilleştirilebilir Slime ile yer değiştirme şansının %",
+  "item.tameable_slimes.living_slime_bottle": "Yaşayan Slime Şişesi",
+  "item.tameable_slimes.dyeable_slime_ball": "Sümüklü böcek",
+  "item.tameable_slimes.dyed_living_slime": "Yaşayan Sümüklü Böcek",
+  "block.tameable_slimes.dyed_alive_slime": "Yaşayan Slime Bloğu",
+  "block.tameable_slimes.alive_slime": "Yaşayan Slime Bloğu",
+  "block.tameable_slimes.slime_mixer": "Slime Karıştırıcı",
+  "gamerule.TameableSlimes_DyedRate.description": "Uysal Slime\u0027ların Rastgele Bir Renkle (sadece Vanilla Boyaları ile sınırlı) oluşma % Şansı",
+  "item.tameable_slimes.living_slime": "Yaşayan Sümüklü Böcek",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Yaşayan Slime Şişesi",
+  "gamerule.TameableSlimes_Living_DropRate": "Evcilleştirilebilir Slime\u0027ların Düşme Oranı"
+}

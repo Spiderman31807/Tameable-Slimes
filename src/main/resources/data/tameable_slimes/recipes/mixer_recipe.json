@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobblestone"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:brewing_stand"
+    },
+    "d": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "tameable_slimes:slime_mixer",
+    "count": 1
+  }
+}

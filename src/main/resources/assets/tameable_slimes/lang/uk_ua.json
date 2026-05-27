@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Приручені слизи змішують кольори",
+  "gamerule.TameableSlimes_SpawnRate": "Швидкість спавну приручних слизнів",
+  "gamerule.TameableSlimes_DyedRate": "Швидкість фарбування приручених слизнів",
+  "gamerule.TameableSlimes_MergeColors.description": "Фарбування вже пофарбованого Слизу об\u0027єднає фарби за допомогою RGB-системи",
+  "gamerule.TameableSlimes_Living_DropRate.description": "% Шанс замінити Слизову кулю на Живу слизову кулю зі здобичі після смерті слизу",
+  "gamerule.TameableSlimes_SpawnRate.description": "% Шанс заміни звичайного Слайму на приручного Слайму при спавні",
+  "item.tameable_slimes.living_slime_bottle": "Пляшка Живої Слизі",
+  "item.tameable_slimes.dyeable_slime_ball": "Слизняк",
+  "item.tameable_slimes.dyed_living_slime": "Живой слизняк",
+  "block.tameable_slimes.dyed_alive_slime": "Блок Живої Слизу",
+  "block.tameable_slimes.alive_slime": "Блок Живої Слизу",
+  "block.tameable_slimes.slime_mixer": "Міксер для слизу",
+  "gamerule.TameableSlimes_DyedRate.description": "% Шансу на появу приручуваного Слайму з випадковим кольором (обмежено до Ванільних Барвників)",
+  "item.tameable_slimes.living_slime": "Живой слизняк",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Пляшка Живої Слизі",
+  "gamerule.TameableSlimes_Living_DropRate": "Шанс випадіння приручених слизнів"
+}

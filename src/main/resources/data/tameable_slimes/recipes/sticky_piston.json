@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "tameable_slimes:dyeable_slime_ball"
+    },
+    {
+      "item": "minecraft:piston"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sticky_piston",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Tembaar Slijm Mengt Kleuren",
+  "gamerule.TameableSlimes_SpawnRate": "Spawnpercentage van tembare Slimes",
+  "gamerule.TameableSlimes_DyedRate": "Tembaar Slijm Verfpercentage",
+  "gamerule.TameableSlimes_MergeColors.description": "Het verven van een al geverfde Slime zal de verven samenvoegen met behulp van een RGB-systeem",
+  "gamerule.TameableSlimes_Living_DropRate.description": "De % kans om een Slimeball te vervangen door een Living Slimeball uit de slimes doodsbuit",
+  "gamerule.TameableSlimes_SpawnRate.description": "De % kans om een Vanilla Slime te vervangen door een Tamable Slime bij het spawnen",
+  "item.tameable_slimes.living_slime_bottle": "Fles Levende Slijm",
+  "item.tameable_slimes.dyeable_slime_ball": "Slijmbal",
+  "item.tameable_slimes.dyed_living_slime": "Levende Slijmbal",
+  "block.tameable_slimes.dyed_alive_slime": "Levend Slijmblok",
+  "block.tameable_slimes.alive_slime": "Levend Slijmblok",
+  "block.tameable_slimes.slime_mixer": "Slijm Mixer",
+  "gamerule.TameableSlimes_DyedRate.description": "De % kans dat een tembare Slime met een willekeurige kleur verschijnt (beperkt tot Vanilla Kleurstoffen)",
+  "item.tameable_slimes.living_slime": "Levende Slijmbal",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Fles Levende Slijm",
+  "gamerule.TameableSlimes_Living_DropRate": "Drop Rate van Tembare Slijmen"
+}

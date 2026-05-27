@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Приручаемите слизи се сливат в цветове",
+  "gamerule.TameableSlimes_SpawnRate": "Скорост на появяване на приручваеми слизи",
+  "gamerule.TameableSlimes_DyedRate": "Степен на оцветяване на приручаеми слизи",
+  "gamerule.TameableSlimes_MergeColors.description": "Оцветяването на вече оцветен Слайм ще съчетае боите, използвайки RGB система",
+  "gamerule.TameableSlimes_Living_DropRate.description": "% Шанс за замяна на Слаймбол с Жив Слаймбол от плячката на умрялото слаймче",
+  "gamerule.TameableSlimes_SpawnRate.description": "% Шанс за замяна на Ванилов Слайм с Домашен Слайм при Спаунване",
+  "item.tameable_slimes.living_slime_bottle": "Бутилка с жива слиз",
+  "item.tameable_slimes.dyeable_slime_ball": "Слизеста топка",
+  "item.tameable_slimes.dyed_living_slime": "Жива слизеста топка",
+  "block.tameable_slimes.dyed_alive_slime": "Блок от жива слиз",
+  "block.tameable_slimes.alive_slime": "Блок от жива слиз",
+  "block.tameable_slimes.slime_mixer": "Миксер за слайм",
+  "gamerule.TameableSlimes_DyedRate.description": "% Шанс за генериране на Приручими Слаймове със случайни цветове (ограничено до Ванилови Бои)",
+  "item.tameable_slimes.living_slime": "Жива слизеста топка",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Бутилка с жива слиз",
+  "gamerule.TameableSlimes_Living_DropRate": "Шанс за падане на Приручаеми Слаймове"
+}

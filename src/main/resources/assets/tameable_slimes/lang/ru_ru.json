@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Укрощаемые Слизни сливают цвета",
+  "gamerule.TameableSlimes_SpawnRate": "Частота появления приручаемых слизней",
+  "gamerule.TameableSlimes_DyedRate": "Скорость окрашивания приручаемых слизней",
+  "gamerule.TameableSlimes_MergeColors.description": "При окрашивании уже окрашенного Слизняка, красители будут смешиваться с использованием системы RGB",
+  "gamerule.TameableSlimes_Living_DropRate.description": "% шанс замены Слизняка на Живого Слизняка из добычи после смерти слизней",
+  "gamerule.TameableSlimes_SpawnRate.description": "% шанс замены обычного слизня на приручаемого слизня при появлении",
+  "item.tameable_slimes.living_slime_bottle": "Бутылка Живой Слизи",
+  "item.tameable_slimes.dyeable_slime_ball": "Слизняк",
+  "item.tameable_slimes.dyed_living_slime": "Живой слизняк",
+  "block.tameable_slimes.dyed_alive_slime": "Блок Живой Слизи",
+  "block.tameable_slimes.alive_slime": "Блок Живой Слизи",
+  "block.tameable_slimes.slime_mixer": "Смеситель для слизи",
+  "gamerule.TameableSlimes_DyedRate.description": "% шанса на появление приручаемого Слайма с случайным цветом (ограничено ванильными красителями)",
+  "item.tameable_slimes.living_slime": "Живой слизняк",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Бутылка Живой Слизи",
+  "gamerule.TameableSlimes_Living_DropRate": "Шанс выпадения приручаемых слизней"
+}

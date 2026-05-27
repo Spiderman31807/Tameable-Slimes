@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "길들일 수 있는 슬라임 색상 병합",
+  "gamerule.TameableSlimes_SpawnRate": "길들일 수 있는 슬라임 스폰률",
+  "gamerule.TameableSlimes_DyedRate": "길들일 수 있는 슬라임의 염색 비율",
+  "gamerule.TameableSlimes_MergeColors.description": "이미 염색된 슬라임을 다시 염색하면 RGB 시스템을 사용하여 염료가 병합됩니다",
+  "gamerule.TameableSlimes_Living_DropRate.description": "슬라임의 죽음 루트에서 슬라임볼을 생명체 슬라임볼로 교체할 % 확률",
+  "gamerule.TameableSlimes_SpawnRate.description": "스폰 시 바닐라 슬라임을 길들일 수 있는 슬라임으로 교체할 % 확률",
+  "item.tameable_slimes.living_slime_bottle": "살아있는 슬라임 병",
+  "item.tameable_slimes.dyeable_slime_ball": "슬라임볼",
+  "item.tameable_slimes.dyed_living_slime": "살아있는 슬라임볼",
+  "block.tameable_slimes.dyed_alive_slime": "살아있는 슬라임 블록",
+  "block.tameable_slimes.alive_slime": "살아있는 슬라임 블록",
+  "block.tameable_slimes.slime_mixer": "슬라임 믹서",
+  "gamerule.TameableSlimes_DyedRate.description": "타메이블 슬라임이 무작위 색상(바닐라 염료로 제한)으로 생성될 % 확률",
+  "item.tameable_slimes.living_slime": "살아있는 슬라임볼",
+  "item.tameable_slimes.dyed_living_slime_bottle": "살아있는 슬라임 병",
+  "gamerule.TameableSlimes_Living_DropRate": "길들일 수 있는 슬라임 드롭률"
+}

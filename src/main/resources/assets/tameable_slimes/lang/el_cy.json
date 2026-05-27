@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Οι Εξημερώσιμοι Σλάιμς Συγχωνεύουν Χρώματα",
+  "gamerule.TameableSlimes_SpawnRate": "Ρυθμός Εμφάνισης Εξημερώσιμων Σλάιμ",
+  "gamerule.TameableSlimes_DyedRate": "Ρυθμός Βαφής Εξημερώσιμων Σλάιμ",
+  "gamerule.TameableSlimes_MergeColors.description": "Βάφοντας ένα ήδη βαμμένο Slime θα συγχωνεύσει τα χρώματα χρησιμοποιώντας ένα σύστημα RGB",
+  "gamerule.TameableSlimes_Living_DropRate.description": "Η % πιθανότητα αντικατάστασης ενός Slimeball με ένα Living Slimeball από το λάφυρο θανάτου των slimes",
+  "gamerule.TameableSlimes_SpawnRate.description": "Η % Πιθανότητα αντικατάστασης ενός Βανίλια Slime με ένα Εξημερώσιμο Slime κατά τη διάρκεια της Εμφάνισης",
+  "item.tameable_slimes.living_slime_bottle": "Μπουκάλι Ζωντανού Σλάιμ",
+  "item.tameable_slimes.dyeable_slime_ball": "Σιχαμένος",
+  "item.tameable_slimes.dyed_living_slime": "Ζωντανή Μπάλα Λάσπης",
+  "block.tameable_slimes.dyed_alive_slime": "Ζωντανό Μπλοκ Λάσπης",
+  "block.tameable_slimes.alive_slime": "Ζωντανό Μπλοκ Λάσπης",
+  "block.tameable_slimes.slime_mixer": "Μίξερ Σλάιμ",
+  "gamerule.TameableSlimes_DyedRate.description": "Η % Πιθανότητα εμφάνισης ενός Εξημερώσιμου Slime με Τυχαίο Χρώμα (περιορισμένο στα Βανίλια Χρώματα)",
+  "item.tameable_slimes.living_slime": "Ζωντανή Μπάλα Λάσπης",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Μπουκάλι Ζωντανού Σλάιμ",
+  "gamerule.TameableSlimes_Living_DropRate": "Ρυθμός Πτώσης Εξημερώσιμων Σλάιμ"
+}

@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Ovládateľné slizy spájajú farby",
+  "gamerule.TameableSlimes_SpawnRate": "Miera spawnu ovládateľných slizov",
+  "gamerule.TameableSlimes_DyedRate": "Odfarbenie Domácich Slizov",
+  "gamerule.TameableSlimes_MergeColors.description": "Farbenie už sfarbenej Slizy spojí farbivá pomocou RGB systému",
+  "gamerule.TameableSlimes_Living_DropRate.description": "% Šanca na výmenu Slimeball za Living Slimeball z koristi po smrti slizu",
+  "gamerule.TameableSlimes_SpawnRate.description": "% šanca na nahradenie Vanilla Slizu za Ochočiteľného Slizu pri Spawne",
+  "item.tameable_slimes.living_slime_bottle": "Fľaša živého slizu",
+  "item.tameable_slimes.dyeable_slime_ball": "Hadica",
+  "item.tameable_slimes.dyed_living_slime": "Živá slizová guľa",
+  "block.tameable_slimes.dyed_alive_slime": "Blok živej slizu",
+  "block.tameable_slimes.alive_slime": "Blok živej slizu",
+  "block.tameable_slimes.slime_mixer": "Miešačka na sliz",
+  "gamerule.TameableSlimes_DyedRate.description": "% šanca na to, že sa objaví ochočiteľný Slime s náhodnou farbou (obmedzené na Vanilla Dyes)",
+  "item.tameable_slimes.living_slime": "Živá slizová guľa",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Fľaša živého slizu",
+  "gamerule.TameableSlimes_Living_DropRate": "Miera padania ovládateľných Slizov"
+}

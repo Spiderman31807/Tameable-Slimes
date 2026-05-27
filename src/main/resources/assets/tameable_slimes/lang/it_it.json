@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Le Melme Addomesticabili Uniscono i Colori",
+  "gamerule.TameableSlimes_SpawnRate": "Velocità di generazione dei Slime addomesticabili",
+  "gamerule.TameableSlimes_DyedRate": "Percentuale di Melme Addomesticabili Tinte",
+  "gamerule.TameableSlimes_MergeColors.description": "Tingendo un Slime già Tinto si Fonderanno i Coloranti utilizzando un Sistema RGB",
+  "gamerule.TameableSlimes_Living_DropRate.description": "La % possibilità di sostituire una Slimeball con una Slimeball Vivente dal bottino di morte delle melme",
+  "gamerule.TameableSlimes_SpawnRate.description": "La % di possibilità di sostituire un Slime Vanilla con uno Slime Addomesticabile al momento della generazione",
+  "item.tameable_slimes.living_slime_bottle": "Bottiglia di Melma Vivente",
+  "item.tameable_slimes.dyeable_slime_ball": "Pallina di melma",
+  "item.tameable_slimes.dyed_living_slime": "Slimeball Vivente",
+  "block.tameable_slimes.dyed_alive_slime": "Blocco di Melma Vivente",
+  "block.tameable_slimes.alive_slime": "Blocco di Melma Vivente",
+  "block.tameable_slimes.slime_mixer": "Mixer per Slime",
+  "gamerule.TameableSlimes_DyedRate.description": "La % probabilità che uno Slime addomesticabile appaia con un colore casuale (limitato ai colori base di Vanilla)",
+  "item.tameable_slimes.living_slime": "Slimeball Vivente",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Bottiglia di Melma Vivente",
+  "gamerule.TameableSlimes_Living_DropRate": "Tasso di caduta delle Melme Addomesticabili"
+}

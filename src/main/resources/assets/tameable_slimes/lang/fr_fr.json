@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Les Slimes Apprivoisables Fusionnent les Couleurs",
+  "gamerule.TameableSlimes_SpawnRate": "Taux d\u0027apparition des Slimes Apprivoisables",
+  "gamerule.TameableSlimes_DyedRate": "Slimes Apprivoisables Taux de Teinture",
+  "gamerule.TameableSlimes_MergeColors.description": "La teinture d\u0027un Slime déjà teint fusionnera les teintures en utilisant un système RGB",
+  "gamerule.TameableSlimes_Living_DropRate.description": "Le % de chance de remplacer une Boule de Slime par une Boule de Slime Vivante dans le butin de mort des slimes",
+  "gamerule.TameableSlimes_SpawnRate.description": "La % de chance de remplacer un Slime Vanille par un Slime Apprivoisable lors de l\u0027apparition",
+  "item.tameable_slimes.living_slime_bottle": "Bouteille de Slime Vivant",
+  "item.tameable_slimes.dyeable_slime_ball": "Boule de bave",
+  "item.tameable_slimes.dyed_living_slime": "Boule de Slime Vivante",
+  "block.tameable_slimes.dyed_alive_slime": "Bloc de Slime Vivant",
+  "block.tameable_slimes.alive_slime": "Bloc de Slime Vivant",
+  "block.tameable_slimes.slime_mixer": "Mélangeur de Slime",
+  "gamerule.TameableSlimes_DyedRate.description": "La % de chance qu\u0027un Slime apprivoisable apparaisse avec une couleur aléatoire (limitée aux teintures Vanilla)",
+  "item.tameable_slimes.living_slime": "Boule de Slime Vivante",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Bouteille de Slime Vivant",
+  "gamerule.TameableSlimes_Living_DropRate": "Taux de chute des Slimes Apprivoisables"
+}

@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "テイム可能なスライムは色を合成します",
+  "gamerule.TameableSlimes_SpawnRate": "テイム可能なスライムのスポーン率",
+  "gamerule.TameableSlimes_DyedRate": "手なずけるスライムの染色率",
+  "gamerule.TameableSlimes_MergeColors.description": "すでに染色されたスライムを染色すると、RGBシステムを使用して染料が結合します",
+  "gamerule.TameableSlimes_Living_DropRate.description": "スライムの死亡時の戦利品からスライムボールをリビングスライムボールに置き換える%チャンス",
+  "gamerule.TameableSlimes_SpawnRate.description": "スポーン時にバニラスライムをテイム可能なスライムに置き換える%チャンス",
+  "item.tameable_slimes.living_slime_bottle": "生きているスライムボトル",
+  "item.tameable_slimes.dyeable_slime_ball": "スライムボール",
+  "item.tameable_slimes.dyed_living_slime": "生きているスライムボール",
+  "block.tameable_slimes.dyed_alive_slime": "生きているスライムブロック",
+  "block.tameable_slimes.alive_slime": "生きているスライムブロック",
+  "block.tameable_slimes.slime_mixer": "スライムミキサー",
+  "gamerule.TameableSlimes_DyedRate.description": "テイム可能なスライムがランダムな色（バニラ染料に限定）でスポーンする％チャンス",
+  "item.tameable_slimes.living_slime": "生きているスライムボール",
+  "item.tameable_slimes.dyed_living_slime_bottle": "生きているスライムボトル",
+  "gamerule.TameableSlimes_Living_DropRate": "テイム可能なスライムのドロップ率"
+}

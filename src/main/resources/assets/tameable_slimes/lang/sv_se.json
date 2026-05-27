@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Tämjbara slem färgsammanslagning",
+  "gamerule.TameableSlimes_SpawnRate": "Tämjbara slemmars spawnhastighet",
+  "gamerule.TameableSlimes_DyedRate": "Tämjbara Slem Färgningsfrekvens",
+  "gamerule.TameableSlimes_MergeColors.description": "Att färga en redan färgad Slime kommer att sammanfoga färgerna med hjälp av ett RGB-system",
+  "gamerule.TameableSlimes_Living_DropRate.description": "% chansen att ersätta en Slimeball med en Living Slimeball från slimes dödsbyte",
+  "gamerule.TameableSlimes_SpawnRate.description": "% chansen att ersätta en Vanilj-slime med en Tambar-slime vid framkallning",
+  "item.tameable_slimes.living_slime_bottle": "Flaska med levande slem",
+  "item.tameable_slimes.dyeable_slime_ball": "Slemmig boll",
+  "item.tameable_slimes.dyed_living_slime": "Levande slemklump",
+  "block.tameable_slimes.dyed_alive_slime": "Levande slemblock",
+  "block.tameable_slimes.alive_slime": "Levande slemblock",
+  "block.tameable_slimes.slime_mixer": "Slem Mixer",
+  "gamerule.TameableSlimes_DyedRate.description": "% chansen att en tambar Slime spawnar med en slumpmässig färg (begränsad till Vanilla Färger)",
+  "item.tameable_slimes.living_slime": "Levande slemklump",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Flaska med levande slem",
+  "gamerule.TameableSlimes_Living_DropRate": "Tämjbara Slemmors Nedfallsfrekvens"
+}

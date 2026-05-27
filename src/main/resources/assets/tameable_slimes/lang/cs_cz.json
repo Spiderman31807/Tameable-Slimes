@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Ochočitelné slizy mění barvy",
+  "gamerule.TameableSlimes_SpawnRate": "Míra spawnu ochočitelných slimáků",
+  "gamerule.TameableSlimes_DyedRate": "Obarvitelnost ochočitelných slizů",
+  "gamerule.TameableSlimes_MergeColors.description": "Barvení již obarveného Slizu spojí barvy pomocí RGB systému",
+  "gamerule.TameableSlimes_Living_DropRate.description": "% šance na nahrazení Slizové koule Živou slizovou koulí z kořisti po smrti slizu",
+  "gamerule.TameableSlimes_SpawnRate.description": "% šance na nahrazení Vanilla Slime za ochočitelného Slime při spawnování",
+  "item.tameable_slimes.living_slime_bottle": "Lahev s živou slizí",
+  "item.tameable_slimes.dyeable_slime_ball": "Slizová koule",
+  "item.tameable_slimes.dyed_living_slime": "Žijící slizká koule",
+  "block.tameable_slimes.dyed_alive_slime": "Blok živého slizu",
+  "block.tameable_slimes.alive_slime": "Blok živého slizu",
+  "block.tameable_slimes.slime_mixer": "Míchačka na slime",
+  "gamerule.TameableSlimes_DyedRate.description": "% šance na spawnování ochočitelných slizů s náhodnou barvou (omezeno na vanilkové barvy)",
+  "item.tameable_slimes.living_slime": "Žijící slizká koule",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Lahev s živou slizí",
+  "gamerule.TameableSlimes_Living_DropRate": "Pravděpodobnost získání ochočitelných slizů"
+}

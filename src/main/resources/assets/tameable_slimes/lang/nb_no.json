@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Temmede Slimer Fletter Farger",
+  "gamerule.TameableSlimes_SpawnRate": "Tambar Slimers Spawne Rate",
+  "gamerule.TameableSlimes_DyedRate": "Tambar Slimer Farget Rate",
+  "gamerule.TameableSlimes_MergeColors.description": "Farging av en allerede farget Slime vil slå sammen fargene ved hjelp av et RGB-system",
+  "gamerule.TameableSlimes_Living_DropRate.description": "Prosent sjansen for å erstatte en Slimeball med en Living Slimeball fra slimes dødsbytte",
+  "gamerule.TameableSlimes_SpawnRate.description": "% sjanse for å erstatte en Vanilje Slime med en Tambar Slime ved Spawning",
+  "item.tameable_slimes.living_slime_bottle": "Flaske med levende slim",
+  "item.tameable_slimes.dyeable_slime_ball": "Slimeball",
+  "item.tameable_slimes.dyed_living_slime": "Levende Slimeball",
+  "block.tameable_slimes.dyed_alive_slime": "Levende Slim Blokk",
+  "block.tameable_slimes.alive_slime": "Levende Slim Blokk",
+  "block.tameable_slimes.slime_mixer": "Slime Mikser",
+  "gamerule.TameableSlimes_DyedRate.description": "Den % sjansen for at en Tambar Slime spawner med en tilfeldig farge (begrenset til Vanilla Farger)",
+  "item.tameable_slimes.living_slime": "Levende Slimeball",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Flaske med levende slim",
+  "gamerule.TameableSlimes_Living_DropRate": "Tambar Slimers Nedfallsrate"
+}

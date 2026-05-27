@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Kesytettävät limat yhdistävät värejä",
+  "gamerule.TameableSlimes_SpawnRate": "Kesytettävien limojen ilmestymisnopeus",
+  "gamerule.TameableSlimes_DyedRate": "Kesytettävien limojen värjäysaste",
+  "gamerule.TameableSlimes_MergeColors.description": "Värjätyn liman uudelleenvärjäys yhdistää värit RGB-järjestelmän avulla",
+  "gamerule.TameableSlimes_Living_DropRate.description": "% mahdollisuus korvata limapallo elävällä limapallolla liman kuoleman saaliista",
+  "gamerule.TameableSlimes_SpawnRate.description": "% mahdollisuus korvata Vanilla Slime Tameable Slime:lla syntymisen yhteydessä",
+  "item.tameable_slimes.living_slime_bottle": "Elävä limapullo",
+  "item.tameable_slimes.dyeable_slime_ball": "Limapallo",
+  "item.tameable_slimes.dyed_living_slime": "Elävä limapallo",
+  "block.tameable_slimes.dyed_alive_slime": "Elävä limaklöntti",
+  "block.tameable_slimes.alive_slime": "Elävä limaklöntti",
+  "block.tameable_slimes.slime_mixer": "Limasekoitin",
+  "gamerule.TameableSlimes_DyedRate.description": "% mahdollisuus, että kesytettävä lima ilmestyy satunnaisella värillä (rajoitettu Vanilla-väreihin)",
+  "item.tameable_slimes.living_slime": "Elävä limapallo",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Elävä limapullo",
+  "gamerule.TameableSlimes_Living_DropRate": "Kesytettävien limojen pudotusprosentti"
+}

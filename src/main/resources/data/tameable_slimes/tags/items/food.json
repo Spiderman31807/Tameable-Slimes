@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#tameable_slimes:vaild_mixer",
+    "tameable_slimes:dyeable_slime_ball",
+    "minecraft:slime_ball",
+    "minecraft:slime_block"
+  ]
+}

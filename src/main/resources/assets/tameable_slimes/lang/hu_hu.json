@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Megszelídíthető Nyálkák Színei Összeolvadnak",
+  "gamerule.TameableSlimes_SpawnRate": "Megszelídíthető Nyálkák Megjelenési Aránya",
+  "gamerule.TameableSlimes_DyedRate": "Megszelídíthető Nyálkák Festési Aránya",
+  "gamerule.TameableSlimes_MergeColors.description": "Egy már befestett Nyúlca újrafestésekor az RGB rendszer segítségével összeolvadnak a festékek",
+  "gamerule.TameableSlimes_Living_DropRate.description": "A % esély arra, hogy egy Slimeball-t Living Slimeball-lal cseréljenek le a slime halála utáni zsákmányból",
+  "gamerule.TameableSlimes_SpawnRate.description": "A % esélye annak, hogy egy Vanilla Nyúlót egy Idomítható Nyúlóval cseréljünk ki Születéskor",
+  "item.tameable_slimes.living_slime_bottle": "Élő Nyálka Palack",
+  "item.tameable_slimes.dyeable_slime_ball": "Nyálkagolyó",
+  "item.tameable_slimes.dyed_living_slime": "Élő Nyálkagolyó",
+  "block.tameable_slimes.dyed_alive_slime": "Élő Nyálka Blokk",
+  "block.tameable_slimes.alive_slime": "Élő Nyálka Blokk",
+  "block.tameable_slimes.slime_mixer": "Nyúlós trutyi keverő",
+  "gamerule.TameableSlimes_DyedRate.description": "A megszelídíthető nyálkák véletlenszerű színű (korlátozva a vanília festékekre) megjelenésének % esélye",
+  "item.tameable_slimes.living_slime": "Élő Nyálkagolyó",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Élő Nyálka Palack",
+  "gamerule.TameableSlimes_Living_DropRate": "Megszelídíthető Nyálkák Elejtési Aránya"
+}

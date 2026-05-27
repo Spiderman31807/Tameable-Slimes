@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tameable_slimes:living_slime",
+    "tameable_slimes:dyed_living_slime",
+    "tameable_slimes:alive_slime",
+    "tameable_slimes:dyed_alive_slime",
+    "tameable_slimes:living_slime_bottle",
+    "tameable_slimes:dyed_living_slime_bottle",
+    "tameable_slimes:dyeable_slime_ball"
+  ]
+}

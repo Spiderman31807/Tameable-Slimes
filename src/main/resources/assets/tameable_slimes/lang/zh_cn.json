@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "可驯服的史莱姆合并颜色",
+  "gamerule.TameableSlimes_SpawnRate": "可驯服史莱姆的生成率",
+  "gamerule.TameableSlimes_DyedRate": "可驯服史莱姆的染色率",
+  "gamerule.TameableSlimes_MergeColors.description": "对已经染色的史莱姆进行染色将使用RGB系统合并染料",
+  "gamerule.TameableSlimes_Living_DropRate.description": "从史莱姆死亡掉落物中替换史莱姆球为活史莱姆球的%概率",
+  "gamerule.TameableSlimes_SpawnRate.description": "生成时用可驯服的史莱姆替换香草史莱姆的%概率",
+  "item.tameable_slimes.living_slime_bottle": "活性黏液瓶",
+  "item.tameable_slimes.dyeable_slime_ball": "恶心的人",
+  "item.tameable_slimes.dyed_living_slime": "活生生的黏液球",
+  "block.tameable_slimes.dyed_alive_slime": "活体史莱姆块",
+  "block.tameable_slimes.alive_slime": "活体史莱姆块",
+  "block.tameable_slimes.slime_mixer": "粘液混合器",
+  "gamerule.TameableSlimes_DyedRate.description": "可驯服史莱姆以随机颜色（限于原版染料）生成的%概率",
+  "item.tameable_slimes.living_slime": "活生生的黏液球",
+  "item.tameable_slimes.dyed_living_slime_bottle": "活性黏液瓶",
+  "gamerule.TameableSlimes_Living_DropRate": "可驯服史莱姆掉落率"
+}

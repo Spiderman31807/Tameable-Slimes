@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tameable_slimes:block/alive_slime"
+    }
+  }
+}

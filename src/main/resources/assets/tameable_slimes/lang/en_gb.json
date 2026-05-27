@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Tameable Slimes Merge Colours",
+  "gamerule.TameableSlimes_SpawnRate": "Tameable Slimes Spawn Rate",
+  "gamerule.TameableSlimes_DyedRate": "Tameable Slimes Dyed Rate",
+  "gamerule.TameableSlimes_MergeColors.description": "Dyeing an already Dyed Slime will Merge the Dyes using an RGB System",
+  "gamerule.TameableSlimes_Living_DropRate.description": "The % Chance of replacing a Slimeball with a Living Slimeball from the slimes death loot",
+  "gamerule.TameableSlimes_SpawnRate.description": "The % Chance of replacing a Vanilla Slime with a Tameable Slime upon Spawning",
+  "item.tameable_slimes.living_slime_bottle": "Living Slime Bottle",
+  "item.tameable_slimes.dyeable_slime_ball": "Slimeball",
+  "item.tameable_slimes.dyed_living_slime": "Living Slimeball",
+  "block.tameable_slimes.dyed_alive_slime": "Living Slime Block",
+  "block.tameable_slimes.alive_slime": "Living Slime Block",
+  "block.tameable_slimes.slime_mixer": "Slime Mixer",
+  "gamerule.TameableSlimes_DyedRate.description": "The % Chance of a Tameable Slimes spawning with a Random Colour (limited to Vanilla Dyes)",
+  "item.tameable_slimes.living_slime": "Living Slimeball",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Living Slime Bottle",
+  "gamerule.TameableSlimes_Living_DropRate": "Tameable Slimes Drop Rate"
+}

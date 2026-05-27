@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Slime yang Bisa Dijinakkan Menggabungkan Warna",
+  "gamerule.TameableSlimes_SpawnRate": "Kecepatan Muncul Slime yang Bisa Dijinakkan",
+  "gamerule.TameableSlimes_DyedRate": "Rate Pewarnaan Slime yang Bisa Dijinakkan",
+  "gamerule.TameableSlimes_MergeColors.description": "Mewarnai Slime yang sudah Dicelup akan Menggabungkan Pewarna menggunakan Sistem RGB",
+  "gamerule.TameableSlimes_Living_DropRate.description": "Persentase peluang mengganti Slimeball dengan Living Slimeball dari harta karun kematian slime",
+  "gamerule.TameableSlimes_SpawnRate.description": "Persentase Kesempatan menggantikan Slime Vanilla dengan Slime yang dapat dijinakkan saat Muncul",
+  "item.tameable_slimes.living_slime_bottle": "Botol Lendir Hidup",
+  "item.tameable_slimes.dyeable_slime_ball": "Bola lendir",
+  "item.tameable_slimes.dyed_living_slime": "Lendir Hidup",
+  "block.tameable_slimes.dyed_alive_slime": "Blok Slime Hidup",
+  "block.tameable_slimes.alive_slime": "Blok Slime Hidup",
+  "block.tameable_slimes.slime_mixer": "Pencampur Slime",
+  "gamerule.TameableSlimes_DyedRate.description": "Persentase Kesempatan Slime yang Bisa Dijinakkan Muncul dengan Warna Acak (terbatas pada Pewarna Vanilla)",
+  "item.tameable_slimes.living_slime": "Lendir Hidup",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Botol Lendir Hidup",
+  "gamerule.TameableSlimes_Living_DropRate": "Drop Rate Slime yang Bisa Dijinakkan"
+}

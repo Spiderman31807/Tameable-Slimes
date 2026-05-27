@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tameable_slimes:item/slime",
+    "layer1": "minecraft:item/glass_bottle"
+  }
+}

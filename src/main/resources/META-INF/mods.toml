@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="tameable_slimes"
+version="1.0.1"
+displayName="Tameable Slimes"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/tameable-slimes"
+logoFile="logo.png"
+credits="Spiderman31807"
+authors="Spiderman318"
+description="A Mcreator made mod that makes Slimes tameable"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.tameable_slimes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

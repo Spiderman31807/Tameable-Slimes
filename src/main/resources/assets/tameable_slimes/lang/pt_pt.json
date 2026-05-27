@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Slimes Domesticáveis Misturam Cores",
+  "gamerule.TameableSlimes_SpawnRate": "Taxa de Aparecimento de Slimes Domesticáveis",
+  "gamerule.TameableSlimes_DyedRate": "Percentagem de Slimes Domesticáveis Tingidos",
+  "gamerule.TameableSlimes_MergeColors.description": "Tingir um Slime já tingido irá fundir os corantes usando um Sistema RGB",
+  "gamerule.TameableSlimes_Living_DropRate.description": "A % de probabilidade de substituir uma Bola de Slime por uma Bola de Slime Viva no loot de morte dos slimes",
+  "gamerule.TameableSlimes_SpawnRate.description": "A % de probabilidade de substituir um Slime Vanilla por um Slime Domesticável ao nascer",
+  "item.tameable_slimes.living_slime_bottle": "Garrafa de Lodo Vivo",
+  "item.tameable_slimes.dyeable_slime_ball": "Bola de gosma",
+  "item.tameable_slimes.dyed_living_slime": "Bola de baba viviente",
+  "block.tameable_slimes.dyed_alive_slime": "Bloco de Lodo Vivo",
+  "block.tameable_slimes.alive_slime": "Bloco de Lodo Vivo",
+  "block.tameable_slimes.slime_mixer": "Misturador de Slime",
+  "gamerule.TameableSlimes_DyedRate.description": "A % de probabilidade de um Slime Domesticável aparecer com uma Cor Aleatória (limitado a Tintas de Baunilha)",
+  "item.tameable_slimes.living_slime": "Bola de baba viviente",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Garrafa de Lodo Vivo",
+  "gamerule.TameableSlimes_Living_DropRate": "Taxa de Queda de Slimes Domesticáveis"
+}

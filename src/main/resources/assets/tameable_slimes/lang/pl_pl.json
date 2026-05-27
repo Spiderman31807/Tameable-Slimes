@@ -1,0 +1,18 @@
+{
+  "gamerule.TameableSlimes_MergeColors": "Udomowione Slime\u0027y Łączą Kolory",
+  "gamerule.TameableSlimes_SpawnRate": "Wskaźnik pojawiania się oswojonych slime\u0027ów",
+  "gamerule.TameableSlimes_DyedRate": "Wskaźnik farbowania oswojonych slime\u0027ów",
+  "gamerule.TameableSlimes_MergeColors.description": "Farbowanie już pofarbowanego Slime\u0027a połączy farby za pomocą systemu RGB",
+  "gamerule.TameableSlimes_Living_DropRate.description": "% szans na zastąpienie Slimeballa Żywym Slimeballem z łupu po śmierci slime\u0027a",
+  "gamerule.TameableSlimes_SpawnRate.description": "% szans na zastąpienie zwykłego Slime\u0027a oswojonym Slime\u0027em podczas pojawiania się",
+  "item.tameable_slimes.living_slime_bottle": "Butelka Żyjącego Śluzu",
+  "item.tameable_slimes.dyeable_slime_ball": "Ślizgacz",
+  "item.tameable_slimes.dyed_living_slime": "Żyjąca Kula Śluzu",
+  "block.tameable_slimes.dyed_alive_slime": "Żyjący Blok Szlamu",
+  "block.tameable_slimes.alive_slime": "Żyjący Blok Szlamu",
+  "block.tameable_slimes.slime_mixer": "Mieszarka do slime",
+  "gamerule.TameableSlimes_DyedRate.description": "% Szansa na pojawienie się oswojonego Slime\u0027a z losowym kolorem (ograniczone do barwników Vanilla)",
+  "item.tameable_slimes.living_slime": "Żyjąca Kula Śluzu",
+  "item.tameable_slimes.dyed_living_slime_bottle": "Butelka Żyjącego Śluzu",
+  "gamerule.TameableSlimes_Living_DropRate": "Wskaźnik upuszczania oswojonych slime\u0027ów"
+}
