@@ -1,0 +1,1235 @@
+{
+  "mod_elements": [
+    {
+      "name": "TameableSlime",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tameable_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/TameableSlime.java"
+        ]
+      }
+    },
+    {
+      "name": "LivingSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "living_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/living_slime.json",
+          "src/main/java/tameable/slimes/item/LivingSlimeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DyedLivingSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dyed_living_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/dyed_living_slime.json",
+          "src/main/java/tameable/slimes/item/DyedLivingSlimeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Slime",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/entity/SlimeEntity.java",
+          "src/main/java/tameable/slimes/client/renderer/SlimeRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TameableSlimeRenderer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tameable_slime_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/TameableSlimeRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TameableSlimeOuterLayer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tameable_slime_outer_layer",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/TameableSlimeOuterLayer.java"
+        ]
+      }
+    },
+    {
+      "name": "Color",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "color",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/Color.java"
+        ]
+      }
+    },
+    {
+      "name": "LivingSlimeBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "living_slime_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/living_slime_bottle.json",
+          "src/main/java/tameable/slimes/item/LivingSlimeBottleItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DyedLivingSlimeBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dyed_living_slime_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/item/DyedLivingSlimeBottleItem.java",
+          "src/main/resources/assets/tameable_slimes/models/item/dyed_living_slime_bottle.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AliveSlime",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alive_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/block/AliveSlimeBlock.java",
+          "src/main/resources/assets/tameable_slimes/blockstates/alive_slime.json",
+          "src/main/resources/data/tameable_slimes/loot_tables/blocks/alive_slime.json",
+          "src/main/resources/assets/tameable_slimes/models/block/alive_slime.json",
+          "src/main/resources/assets/tameable_slimes/models/item/alive_slime.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DyedAliveSlime",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dyed_alive_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_slimes/loot_tables/blocks/dyed_alive_slime.json",
+          "src/main/resources/assets/tameable_slimes/models/item/dyed_alive_slime.json",
+          "src/main/resources/assets/tameable_slimes/models/block/dyed_alive_slime.json",
+          "src/main/java/tameable/slimes/block/DyedAliveSlimeBlock.java",
+          "src/main/resources/assets/tameable_slimes/blockstates/dyed_alive_slime.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SlimeRules",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_rules",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/SlimeRules.java"
+        ]
+      }
+    },
+    {
+      "name": "WhiteSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/white_slime.json",
+          "src/main/java/tameable/slimes/item/WhiteSlimeItem.java"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "OrangeSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/orange_slime.json",
+          "src/main/java/tameable/slimes/item/OrangeSlimeItem.java"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "MagentaSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/magenta_slime.json",
+          "src/main/java/tameable/slimes/item/MagentaSlimeItem.java"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "LightBlueSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/item/LightBlueSlimeItem.java",
+          "src/main/resources/assets/tameable_slimes/models/item/light_blue_slime.json"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "LimeSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/lime_slime.json",
+          "src/main/java/tameable/slimes/item/LimeSlimeItem.java"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "PinkSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/pink_slime.json",
+          "src/main/java/tameable/slimes/item/PinkSlimeItem.java"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "GraySlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/gray_slime.json",
+          "src/main/java/tameable/slimes/item/GraySlimeItem.java"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "LightGraySlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/light_gray_slime.json",
+          "src/main/java/tameable/slimes/item/LightGraySlimeItem.java"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "CyanSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/cyan_slime.json",
+          "src/main/java/tameable/slimes/item/CyanSlimeItem.java"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "PurpleSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/item/PurpleSlimeItem.java",
+          "src/main/resources/assets/tameable_slimes/models/item/purple_slime.json"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "BlueSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/item/BlueSlimeItem.java",
+          "src/main/resources/assets/tameable_slimes/models/item/blue_slime.json"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "BrownSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/item/BrownSlimeItem.java",
+          "src/main/resources/assets/tameable_slimes/models/item/brown_slime.json"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "GreenSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/item/GreenSlimeItem.java",
+          "src/main/resources/assets/tameable_slimes/models/item/green_slime.json"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "RedSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/item/RedSlimeItem.java",
+          "src/main/resources/assets/tameable_slimes/models/item/red_slime.json"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "BlackSlime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/item/BlackSlimeItem.java",
+          "src/main/resources/assets/tameable_slimes/models/item/black_slime.json"
+        ]
+      },
+      "path": "~/Items/Particle"
+    },
+    {
+      "name": "SlimeMoveControl",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_move_control",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/SlimeMoveControl.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "SlimeKeepJumpingGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_keep_jumping_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/SlimeKeepJumpingGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "SlimeRandomDirectionGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_random_direction_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/SlimeRandomDirectionGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "SlimeFloatGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_float_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/SlimeFloatGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "SlimeAttackGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_attack_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/SlimeAttackGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "NonTameRandomTargetGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "non_tame_random_target_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/NonTameRandomTargetGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "FollowOwnerGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "follow_owner_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/FollowOwnerGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "OwnerHurtGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "owner_hurt_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/OwnerHurtGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "OwnerHurtByGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "owner_hurt_by_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/OwnerHurtByGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "MergeGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "merge_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/MergeGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "SplitData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "split_data",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/SplitData.java"
+        ]
+      }
+    },
+    {
+      "name": "Mixer",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mixer",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/client/gui/MixerScreen.java",
+          "src/main/java/tameable/slimes/world/inventory/MixerMenu.java"
+        ]
+      },
+      "path": "~/Slime Mixer"
+    },
+    {
+      "name": "SlimeMixer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_mixer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/blockstates/slime_mixer.json",
+          "src/main/java/tameable/slimes/block/SlimeMixerBlock.java",
+          "src/main/resources/assets/tameable_slimes/models/item/slime_mixer.json",
+          "src/main/resources/data/tameable_slimes/loot_tables/blocks/slime_mixer.json",
+          "src/main/resources/assets/tameable_slimes/models/block/slime_mixer.json"
+        ]
+      },
+      "path": "~/Slime Mixer"
+    },
+    {
+      "name": "MixerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_slimes/recipes/mixer_recipe.json"
+        ]
+      },
+      "path": "~/Slime Mixer"
+    },
+    {
+      "name": "MixerResult",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mixer_result",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/MixerResult.java"
+        ]
+      },
+      "path": "~/Slime Mixer"
+    },
+    {
+      "name": "DyeableSlimeBall",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dyeable_slime_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_slimes/models/item/dyeable_slime_ball.json",
+          "src/main/java/tameable/slimes/item/DyeableSlimeBallItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StickyPiston",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sticky_piston",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_slimes/recipes/sticky_piston.json"
+        ]
+      },
+      "path": "~/Items/Dyeable Slime Recipes"
+    },
+    {
+      "name": "MagmaCream",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_cream",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_slimes/recipes/magma_cream.json"
+        ]
+      },
+      "path": "~/Items/Dyeable Slime Recipes"
+    },
+    {
+      "name": "Lead",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_slimes/recipes/lead.json"
+        ]
+      },
+      "path": "~/Items/Dyeable Slime Recipes"
+    },
+    {
+      "name": "StayGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stay_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/StayGoal.java"
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "SpawnSlime",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spawn_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/slimes/SpawnSlime.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SlimeMixer"
+    ],
+    "ITEMS:tameable_slimes:vaild_mixer": [
+      "CUSTOM:LivingSlime",
+      "CUSTOM:DyedLivingSlime",
+      "CUSTOM:AliveSlime",
+      "CUSTOM:DyedAliveSlime",
+      "CUSTOM:LivingSlimeBottle",
+      "CUSTOM:DyedLivingSlimeBottle",
+      "CUSTOM:DyeableSlimeBall"
+    ],
+    "ENTITIES:tameable_slimes:can_replace": [
+      "EntitySlime"
+    ],
+    "ITEMS:tameable_slimes:food": [
+      "TAG:tameable_slimes:vaild_mixer",
+      "CUSTOM:DyeableSlimeBall",
+      "Items.SLIME_BALL",
+      "Blocks.SLIME_BLOCK"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "ru_ru": {
+      "gamerule.TameableSlimes_MergeColors": "Укрощаемые Слизни сливают цвета",
+      "gamerule.TameableSlimes_SpawnRate": "Частота появления приручаемых слизней",
+      "gamerule.TameableSlimes_DyedRate": "Скорость окрашивания приручаемых слизней",
+      "gamerule.TameableSlimes_MergeColors.description": "При окрашивании уже окрашенного Слизняка, красители будут смешиваться с использованием системы RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% шанс замены Слизняка на Живого Слизняка из добычи после смерти слизней",
+      "gamerule.TameableSlimes_SpawnRate.description": "% шанс замены обычного слизня на приручаемого слизня при появлении",
+      "item.tameable_slimes.living_slime_bottle": "Бутылка Живой Слизи",
+      "item.tameable_slimes.dyeable_slime_ball": "Слизняк",
+      "item.tameable_slimes.dyed_living_slime": "Живой слизняк",
+      "block.tameable_slimes.dyed_alive_slime": "Блок Живой Слизи",
+      "block.tameable_slimes.alive_slime": "Блок Живой Слизи",
+      "block.tameable_slimes.slime_mixer": "Смеситель для слизи",
+      "gamerule.TameableSlimes_DyedRate.description": "% шанса на появление приручаемого Слайма с случайным цветом (ограничено ванильными красителями)",
+      "item.tameable_slimes.living_slime": "Живой слизняк",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Бутылка Живой Слизи",
+      "gamerule.TameableSlimes_Living_DropRate": "Шанс выпадения приручаемых слизней"
+    },
+    "it_it": {
+      "gamerule.TameableSlimes_MergeColors": "Le Melme Addomesticabili Uniscono i Colori",
+      "gamerule.TameableSlimes_SpawnRate": "Velocità di generazione dei Slime addomesticabili",
+      "gamerule.TameableSlimes_DyedRate": "Percentuale di Melme Addomesticabili Tinte",
+      "gamerule.TameableSlimes_MergeColors.description": "Tingendo un Slime già Tinto si Fonderanno i Coloranti utilizzando un Sistema RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "La % possibilità di sostituire una Slimeball con una Slimeball Vivente dal bottino di morte delle melme",
+      "gamerule.TameableSlimes_SpawnRate.description": "La % di possibilità di sostituire un Slime Vanilla con uno Slime Addomesticabile al momento della generazione",
+      "item.tameable_slimes.living_slime_bottle": "Bottiglia di Melma Vivente",
+      "item.tameable_slimes.dyeable_slime_ball": "Pallina di melma",
+      "item.tameable_slimes.dyed_living_slime": "Slimeball Vivente",
+      "block.tameable_slimes.dyed_alive_slime": "Blocco di Melma Vivente",
+      "block.tameable_slimes.alive_slime": "Blocco di Melma Vivente",
+      "block.tameable_slimes.slime_mixer": "Mixer per Slime",
+      "gamerule.TameableSlimes_DyedRate.description": "La % probabilità che uno Slime addomesticabile appaia con un colore casuale (limitato ai colori base di Vanilla)",
+      "item.tameable_slimes.living_slime": "Slimeball Vivente",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Bottiglia di Melma Vivente",
+      "gamerule.TameableSlimes_Living_DropRate": "Tasso di caduta delle Melme Addomesticabili"
+    },
+    "pl_pl": {
+      "gamerule.TameableSlimes_MergeColors": "Udomowione Slime\u0027y Łączą Kolory",
+      "gamerule.TameableSlimes_SpawnRate": "Wskaźnik pojawiania się oswojonych slime\u0027ów",
+      "gamerule.TameableSlimes_DyedRate": "Wskaźnik farbowania oswojonych slime\u0027ów",
+      "gamerule.TameableSlimes_MergeColors.description": "Farbowanie już pofarbowanego Slime\u0027a połączy farby za pomocą systemu RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% szans na zastąpienie Slimeballa Żywym Slimeballem z łupu po śmierci slime\u0027a",
+      "gamerule.TameableSlimes_SpawnRate.description": "% szans na zastąpienie zwykłego Slime\u0027a oswojonym Slime\u0027em podczas pojawiania się",
+      "item.tameable_slimes.living_slime_bottle": "Butelka Żyjącego Śluzu",
+      "item.tameable_slimes.dyeable_slime_ball": "Ślizgacz",
+      "item.tameable_slimes.dyed_living_slime": "Żyjąca Kula Śluzu",
+      "block.tameable_slimes.dyed_alive_slime": "Żyjący Blok Szlamu",
+      "block.tameable_slimes.alive_slime": "Żyjący Blok Szlamu",
+      "block.tameable_slimes.slime_mixer": "Mieszarka do slime",
+      "gamerule.TameableSlimes_DyedRate.description": "% Szansa na pojawienie się oswojonego Slime\u0027a z losowym kolorem (ograniczone do barwników Vanilla)",
+      "item.tameable_slimes.living_slime": "Żyjąca Kula Śluzu",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Butelka Żyjącego Śluzu",
+      "gamerule.TameableSlimes_Living_DropRate": "Wskaźnik upuszczania oswojonych slime\u0027ów"
+    },
+    "tr_tr": {
+      "gamerule.TameableSlimes_MergeColors": "Evcilleştirilebilir Slime\u0027lar Renkleri Birleştirir",
+      "gamerule.TameableSlimes_SpawnRate": "Uysallaştırılabilir Slime\u0027ların Oluşma Oranı",
+      "gamerule.TameableSlimes_DyedRate": "Boyandırılabilir Slime\u0027lar Oranı",
+      "gamerule.TameableSlimes_MergeColors.description": "Zaten Boyanmış Bir Slime\u0027ı Boyamak, RGB Sistemi Kullanarak Boyaları Birleştirir",
+      "gamerule.TameableSlimes_Living_DropRate.description": "Slimeball\u0027ın ölüm ganimetinden Canlı Slimeball ile değiştirilme şansının %",
+      "gamerule.TameableSlimes_SpawnRate.description": "Vanilla Slime\u0027ın Doğuşta Evcilleştirilebilir Slime ile yer değiştirme şansının %",
+      "item.tameable_slimes.living_slime_bottle": "Yaşayan Slime Şişesi",
+      "item.tameable_slimes.dyeable_slime_ball": "Sümüklü böcek",
+      "item.tameable_slimes.dyed_living_slime": "Yaşayan Sümüklü Böcek",
+      "block.tameable_slimes.dyed_alive_slime": "Yaşayan Slime Bloğu",
+      "block.tameable_slimes.alive_slime": "Yaşayan Slime Bloğu",
+      "block.tameable_slimes.slime_mixer": "Slime Karıştırıcı",
+      "gamerule.TameableSlimes_DyedRate.description": "Uysal Slime\u0027ların Rastgele Bir Renkle (sadece Vanilla Boyaları ile sınırlı) oluşma % Şansı",
+      "item.tameable_slimes.living_slime": "Yaşayan Sümüklü Böcek",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Yaşayan Slime Şişesi",
+      "gamerule.TameableSlimes_Living_DropRate": "Evcilleştirilebilir Slime\u0027ların Düşme Oranı"
+    },
+    "id_id": {
+      "gamerule.TameableSlimes_MergeColors": "Slime yang Bisa Dijinakkan Menggabungkan Warna",
+      "gamerule.TameableSlimes_SpawnRate": "Kecepatan Muncul Slime yang Bisa Dijinakkan",
+      "gamerule.TameableSlimes_DyedRate": "Rate Pewarnaan Slime yang Bisa Dijinakkan",
+      "gamerule.TameableSlimes_MergeColors.description": "Mewarnai Slime yang sudah Dicelup akan Menggabungkan Pewarna menggunakan Sistem RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "Persentase peluang mengganti Slimeball dengan Living Slimeball dari harta karun kematian slime",
+      "gamerule.TameableSlimes_SpawnRate.description": "Persentase Kesempatan menggantikan Slime Vanilla dengan Slime yang dapat dijinakkan saat Muncul",
+      "item.tameable_slimes.living_slime_bottle": "Botol Lendir Hidup",
+      "item.tameable_slimes.dyeable_slime_ball": "Bola lendir",
+      "item.tameable_slimes.dyed_living_slime": "Lendir Hidup",
+      "block.tameable_slimes.dyed_alive_slime": "Blok Slime Hidup",
+      "block.tameable_slimes.alive_slime": "Blok Slime Hidup",
+      "block.tameable_slimes.slime_mixer": "Pencampur Slime",
+      "gamerule.TameableSlimes_DyedRate.description": "Persentase Kesempatan Slime yang Bisa Dijinakkan Muncul dengan Warna Acak (terbatas pada Pewarna Vanilla)",
+      "item.tameable_slimes.living_slime": "Lendir Hidup",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Botol Lendir Hidup",
+      "gamerule.TameableSlimes_Living_DropRate": "Drop Rate Slime yang Bisa Dijinakkan"
+    },
+    "pt_br": {
+      "gamerule.TameableSlimes_MergeColors": "Slimes Domesticáveis Misturam Cores",
+      "gamerule.TameableSlimes_SpawnRate": "Taxa de Aparecimento de Slimes Domesticáveis",
+      "gamerule.TameableSlimes_DyedRate": "Índice de Tingimento de Slimes Domesticáveis",
+      "gamerule.TameableSlimes_MergeColors.description": "Tingir um Slime já tingido irá mesclar os corantes usando um sistema RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "A % de chance de substituir uma Slimeball por uma Slimeball Viva no loot de morte dos slimes",
+      "gamerule.TameableSlimes_SpawnRate.description": "A % de chance de substituir uma Slime Vanilla por uma Slime Domesticável ao nascer",
+      "item.tameable_slimes.living_slime_bottle": "Garrafa de Gosma Viva",
+      "item.tameable_slimes.dyeable_slime_ball": "Bola de meleca",
+      "item.tameable_slimes.dyed_living_slime": "Bola de baba viviente",
+      "block.tameable_slimes.dyed_alive_slime": "Bloco de Lodo Vivo",
+      "block.tameable_slimes.alive_slime": "Bloco de Lodo Vivo",
+      "block.tameable_slimes.slime_mixer": "Misturador de Slime",
+      "gamerule.TameableSlimes_DyedRate.description": "A % Chance de um Slime Domesticável aparecer com uma Cor Aleatória (limitado a Corantes de Baunilha)",
+      "item.tameable_slimes.living_slime": "Bola de baba viviente",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Garrafa de Gosma Viva",
+      "gamerule.TameableSlimes_Living_DropRate": "Taxa de Queda de Slimes Domesticáveis"
+    },
+    "fr_fr": {
+      "gamerule.TameableSlimes_MergeColors": "Les Slimes Apprivoisables Fusionnent les Couleurs",
+      "gamerule.TameableSlimes_SpawnRate": "Taux d\u0027apparition des Slimes Apprivoisables",
+      "gamerule.TameableSlimes_DyedRate": "Slimes Apprivoisables Taux de Teinture",
+      "gamerule.TameableSlimes_MergeColors.description": "La teinture d\u0027un Slime déjà teint fusionnera les teintures en utilisant un système RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "Le % de chance de remplacer une Boule de Slime par une Boule de Slime Vivante dans le butin de mort des slimes",
+      "gamerule.TameableSlimes_SpawnRate.description": "La % de chance de remplacer un Slime Vanille par un Slime Apprivoisable lors de l\u0027apparition",
+      "item.tameable_slimes.living_slime_bottle": "Bouteille de Slime Vivant",
+      "item.tameable_slimes.dyeable_slime_ball": "Boule de bave",
+      "item.tameable_slimes.dyed_living_slime": "Boule de Slime Vivante",
+      "block.tameable_slimes.dyed_alive_slime": "Bloc de Slime Vivant",
+      "block.tameable_slimes.alive_slime": "Bloc de Slime Vivant",
+      "block.tameable_slimes.slime_mixer": "Mélangeur de Slime",
+      "gamerule.TameableSlimes_DyedRate.description": "La % de chance qu\u0027un Slime apprivoisable apparaisse avec une couleur aléatoire (limitée aux teintures Vanilla)",
+      "item.tameable_slimes.living_slime": "Boule de Slime Vivante",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Bouteille de Slime Vivant",
+      "gamerule.TameableSlimes_Living_DropRate": "Taux de chute des Slimes Apprivoisables"
+    },
+    "ja_jp": {
+      "gamerule.TameableSlimes_MergeColors": "テイム可能なスライムは色を合成します",
+      "gamerule.TameableSlimes_SpawnRate": "テイム可能なスライムのスポーン率",
+      "gamerule.TameableSlimes_DyedRate": "手なずけるスライムの染色率",
+      "gamerule.TameableSlimes_MergeColors.description": "すでに染色されたスライムを染色すると、RGBシステムを使用して染料が結合します",
+      "gamerule.TameableSlimes_Living_DropRate.description": "スライムの死亡時の戦利品からスライムボールをリビングスライムボールに置き換える%チャンス",
+      "gamerule.TameableSlimes_SpawnRate.description": "スポーン時にバニラスライムをテイム可能なスライムに置き換える%チャンス",
+      "item.tameable_slimes.living_slime_bottle": "生きているスライムボトル",
+      "item.tameable_slimes.dyeable_slime_ball": "スライムボール",
+      "item.tameable_slimes.dyed_living_slime": "生きているスライムボール",
+      "block.tameable_slimes.dyed_alive_slime": "生きているスライムブロック",
+      "block.tameable_slimes.alive_slime": "生きているスライムブロック",
+      "block.tameable_slimes.slime_mixer": "スライムミキサー",
+      "gamerule.TameableSlimes_DyedRate.description": "テイム可能なスライムがランダムな色（バニラ染料に限定）でスポーンする％チャンス",
+      "item.tameable_slimes.living_slime": "生きているスライムボール",
+      "item.tameable_slimes.dyed_living_slime_bottle": "生きているスライムボトル",
+      "gamerule.TameableSlimes_Living_DropRate": "テイム可能なスライムのドロップ率"
+    },
+    "cs_cz": {
+      "gamerule.TameableSlimes_MergeColors": "Ochočitelné slizy mění barvy",
+      "gamerule.TameableSlimes_SpawnRate": "Míra spawnu ochočitelných slimáků",
+      "gamerule.TameableSlimes_DyedRate": "Obarvitelnost ochočitelných slizů",
+      "gamerule.TameableSlimes_MergeColors.description": "Barvení již obarveného Slizu spojí barvy pomocí RGB systému",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% šance na nahrazení Slizové koule Živou slizovou koulí z kořisti po smrti slizu",
+      "gamerule.TameableSlimes_SpawnRate.description": "% šance na nahrazení Vanilla Slime za ochočitelného Slime při spawnování",
+      "item.tameable_slimes.living_slime_bottle": "Lahev s živou slizí",
+      "item.tameable_slimes.dyeable_slime_ball": "Slizová koule",
+      "item.tameable_slimes.dyed_living_slime": "Žijící slizká koule",
+      "block.tameable_slimes.dyed_alive_slime": "Blok živého slizu",
+      "block.tameable_slimes.alive_slime": "Blok živého slizu",
+      "block.tameable_slimes.slime_mixer": "Míchačka na slime",
+      "gamerule.TameableSlimes_DyedRate.description": "% šance na spawnování ochočitelných slizů s náhodnou barvou (omezeno na vanilkové barvy)",
+      "item.tameable_slimes.living_slime": "Žijící slizká koule",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Lahev s živou slizí",
+      "gamerule.TameableSlimes_Living_DropRate": "Pravděpodobnost získání ochočitelných slizů"
+    },
+    "el_cy": {
+      "gamerule.TameableSlimes_MergeColors": "Οι Εξημερώσιμοι Σλάιμς Συγχωνεύουν Χρώματα",
+      "gamerule.TameableSlimes_SpawnRate": "Ρυθμός Εμφάνισης Εξημερώσιμων Σλάιμ",
+      "gamerule.TameableSlimes_DyedRate": "Ρυθμός Βαφής Εξημερώσιμων Σλάιμ",
+      "gamerule.TameableSlimes_MergeColors.description": "Βάφοντας ένα ήδη βαμμένο Slime θα συγχωνεύσει τα χρώματα χρησιμοποιώντας ένα σύστημα RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "Η % πιθανότητα αντικατάστασης ενός Slimeball με ένα Living Slimeball από το λάφυρο θανάτου των slimes",
+      "gamerule.TameableSlimes_SpawnRate.description": "Η % Πιθανότητα αντικατάστασης ενός Βανίλια Slime με ένα Εξημερώσιμο Slime κατά τη διάρκεια της Εμφάνισης",
+      "item.tameable_slimes.living_slime_bottle": "Μπουκάλι Ζωντανού Σλάιμ",
+      "item.tameable_slimes.dyeable_slime_ball": "Σιχαμένος",
+      "item.tameable_slimes.dyed_living_slime": "Ζωντανή Μπάλα Λάσπης",
+      "block.tameable_slimes.dyed_alive_slime": "Ζωντανό Μπλοκ Λάσπης",
+      "block.tameable_slimes.alive_slime": "Ζωντανό Μπλοκ Λάσπης",
+      "block.tameable_slimes.slime_mixer": "Μίξερ Σλάιμ",
+      "gamerule.TameableSlimes_DyedRate.description": "Η % Πιθανότητα εμφάνισης ενός Εξημερώσιμου Slime με Τυχαίο Χρώμα (περιορισμένο στα Βανίλια Χρώματα)",
+      "item.tameable_slimes.living_slime": "Ζωντανή Μπάλα Λάσπης",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Μπουκάλι Ζωντανού Σλάιμ",
+      "gamerule.TameableSlimes_Living_DropRate": "Ρυθμός Πτώσης Εξημερώσιμων Σλάιμ"
+    },
+    "hu_hu": {
+      "gamerule.TameableSlimes_MergeColors": "Megszelídíthető Nyálkák Színei Összeolvadnak",
+      "gamerule.TameableSlimes_SpawnRate": "Megszelídíthető Nyálkák Megjelenési Aránya",
+      "gamerule.TameableSlimes_DyedRate": "Megszelídíthető Nyálkák Festési Aránya",
+      "gamerule.TameableSlimes_MergeColors.description": "Egy már befestett Nyúlca újrafestésekor az RGB rendszer segítségével összeolvadnak a festékek",
+      "gamerule.TameableSlimes_Living_DropRate.description": "A % esély arra, hogy egy Slimeball-t Living Slimeball-lal cseréljenek le a slime halála utáni zsákmányból",
+      "gamerule.TameableSlimes_SpawnRate.description": "A % esélye annak, hogy egy Vanilla Nyúlót egy Idomítható Nyúlóval cseréljünk ki Születéskor",
+      "item.tameable_slimes.living_slime_bottle": "Élő Nyálka Palack",
+      "item.tameable_slimes.dyeable_slime_ball": "Nyálkagolyó",
+      "item.tameable_slimes.dyed_living_slime": "Élő Nyálkagolyó",
+      "block.tameable_slimes.dyed_alive_slime": "Élő Nyálka Blokk",
+      "block.tameable_slimes.alive_slime": "Élő Nyálka Blokk",
+      "block.tameable_slimes.slime_mixer": "Nyúlós trutyi keverő",
+      "gamerule.TameableSlimes_DyedRate.description": "A megszelídíthető nyálkák véletlenszerű színű (korlátozva a vanília festékekre) megjelenésének % esélye",
+      "item.tameable_slimes.living_slime": "Élő Nyálkagolyó",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Élő Nyálka Palack",
+      "gamerule.TameableSlimes_Living_DropRate": "Megszelídíthető Nyálkák Elejtési Aránya"
+    },
+    "nb_no": {
+      "gamerule.TameableSlimes_MergeColors": "Temmede Slimer Fletter Farger",
+      "gamerule.TameableSlimes_SpawnRate": "Tambar Slimers Spawne Rate",
+      "gamerule.TameableSlimes_DyedRate": "Tambar Slimer Farget Rate",
+      "gamerule.TameableSlimes_MergeColors.description": "Farging av en allerede farget Slime vil slå sammen fargene ved hjelp av et RGB-system",
+      "gamerule.TameableSlimes_Living_DropRate.description": "Prosent sjansen for å erstatte en Slimeball med en Living Slimeball fra slimes dødsbytte",
+      "gamerule.TameableSlimes_SpawnRate.description": "% sjanse for å erstatte en Vanilje Slime med en Tambar Slime ved Spawning",
+      "item.tameable_slimes.living_slime_bottle": "Flaske med levende slim",
+      "item.tameable_slimes.dyeable_slime_ball": "Slimeball",
+      "item.tameable_slimes.dyed_living_slime": "Levende Slimeball",
+      "block.tameable_slimes.dyed_alive_slime": "Levende Slim Blokk",
+      "block.tameable_slimes.alive_slime": "Levende Slim Blokk",
+      "block.tameable_slimes.slime_mixer": "Slime Mikser",
+      "gamerule.TameableSlimes_DyedRate.description": "Den % sjansen for at en Tambar Slime spawner med en tilfeldig farge (begrenset til Vanilla Farger)",
+      "item.tameable_slimes.living_slime": "Levende Slimeball",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Flaske med levende slim",
+      "gamerule.TameableSlimes_Living_DropRate": "Tambar Slimers Nedfallsrate"
+    },
+    "zh_tw": {
+      "gamerule.TameableSlimes_MergeColors": "可馴服的史萊姆合併顏色",
+      "gamerule.TameableSlimes_SpawnRate": "可馴服史萊姆的生成率",
+      "gamerule.TameableSlimes_DyedRate": "可馴服史萊姆染色率",
+      "gamerule.TameableSlimes_MergeColors.description": "對已經染色的史萊姆進行染色將使用RGB系統合併染料",
+      "gamerule.TameableSlimes_Living_DropRate.description": "從史萊姆死亡戰利品中用活史萊姆球替換史萊姆球的%機率",
+      "gamerule.TameableSlimes_SpawnRate.description": "替換原版史萊姆為可馴服史萊姆的%機率",
+      "item.tameable_slimes.living_slime_bottle": "生活黏液瓶",
+      "item.tameable_slimes.dyeable_slime_ball": "混蛋",
+      "item.tameable_slimes.dyed_living_slime": "活生生的黏液球",
+      "block.tameable_slimes.dyed_alive_slime": "生活史萊姆塊",
+      "block.tameable_slimes.alive_slime": "生活史萊姆塊",
+      "block.tameable_slimes.slime_mixer": "黏液混合器",
+      "gamerule.TameableSlimes_DyedRate.description": "馴服史萊姆以隨機顏色（僅限於原版染料）生成的%機率",
+      "item.tameable_slimes.living_slime": "活生生的黏液球",
+      "item.tameable_slimes.dyed_living_slime_bottle": "生活黏液瓶",
+      "gamerule.TameableSlimes_Living_DropRate": "可馴服史萊姆掉落率"
+    },
+    "es_mx": {
+      "gamerule.TameableSlimes_MergeColors": "Slimes Domesticables Fusionan Colores",
+      "gamerule.TameableSlimes_SpawnRate": "Tasa de Aparición de Limos Domesticables",
+      "gamerule.TameableSlimes_DyedRate": "Índice de Tinte para Slimes Domesticables",
+      "gamerule.TameableSlimes_MergeColors.description": "Teñir un Slime ya teñido fusionará los tintes utilizando un sistema RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "La % probabilidad de reemplazar una Bola de Slime por una Bola de Slime Viva del botín de muerte de los slimes",
+      "gamerule.TameableSlimes_SpawnRate.description": "La % de probabilidad de reemplazar un Slime de Vainilla con un Slime Domesticable al aparecer",
+      "item.tameable_slimes.living_slime_bottle": "Botella de Limo Vivo",
+      "item.tameable_slimes.dyeable_slime_ball": "Bola de lodo",
+      "item.tameable_slimes.dyed_living_slime": "Baba Viva",
+      "block.tameable_slimes.dyed_alive_slime": "Bloque de Limo Vivo",
+      "block.tameable_slimes.alive_slime": "Bloque de Limo Vivo",
+      "block.tameable_slimes.slime_mixer": "Mezclador de Slime",
+      "gamerule.TameableSlimes_DyedRate.description": "La % probabilidad de que los Slimes domesticables aparezcan con un color aleatorio (limitado a los tintes de Vanilla)",
+      "item.tameable_slimes.living_slime": "Baba Viva",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Botella de Limo Vivo",
+      "gamerule.TameableSlimes_Living_DropRate": "Índice de Caída de Limos Domesticables"
+    },
+    "sk_sk": {
+      "gamerule.TameableSlimes_MergeColors": "Ovládateľné slizy spájajú farby",
+      "gamerule.TameableSlimes_SpawnRate": "Miera spawnu ovládateľných slizov",
+      "gamerule.TameableSlimes_DyedRate": "Odfarbenie Domácich Slizov",
+      "gamerule.TameableSlimes_MergeColors.description": "Farbenie už sfarbenej Slizy spojí farbivá pomocou RGB systému",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% Šanca na výmenu Slimeball za Living Slimeball z koristi po smrti slizu",
+      "gamerule.TameableSlimes_SpawnRate.description": "% šanca na nahradenie Vanilla Slizu za Ochočiteľného Slizu pri Spawne",
+      "item.tameable_slimes.living_slime_bottle": "Fľaša živého slizu",
+      "item.tameable_slimes.dyeable_slime_ball": "Hadica",
+      "item.tameable_slimes.dyed_living_slime": "Živá slizová guľa",
+      "block.tameable_slimes.dyed_alive_slime": "Blok živej slizu",
+      "block.tameable_slimes.alive_slime": "Blok živej slizu",
+      "block.tameable_slimes.slime_mixer": "Miešačka na sliz",
+      "gamerule.TameableSlimes_DyedRate.description": "% šanca na to, že sa objaví ochočiteľný Slime s náhodnou farbou (obmedzené na Vanilla Dyes)",
+      "item.tameable_slimes.living_slime": "Živá slizová guľa",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Fľaša živého slizu",
+      "gamerule.TameableSlimes_Living_DropRate": "Miera padania ovládateľných Slizov"
+    },
+    "es_es": {
+      "gamerule.TameableSlimes_MergeColors": "Slimes Domesticables Fusionan Colores",
+      "gamerule.TameableSlimes_SpawnRate": "Tasa de Aparición de Slimes Domesticables",
+      "gamerule.TameableSlimes_DyedRate": "Ratio de Tinte para Slimes Domesticables",
+      "gamerule.TameableSlimes_MergeColors.description": "Teñir un Slime ya teñido fusionará los tintes utilizando un sistema RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "La % probabilidad de reemplazar una Bola de Slime por una Bola de Slime Viva del botín de muerte de los slimes",
+      "gamerule.TameableSlimes_SpawnRate.description": "La % de probabilidad de reemplazar un Slime Vanilla por un Slime Domesticable al aparecer",
+      "item.tameable_slimes.living_slime_bottle": "Botella de Limo Vivo",
+      "item.tameable_slimes.dyeable_slime_ball": "Bola de baba",
+      "item.tameable_slimes.dyed_living_slime": "Bola de Babosa Viva",
+      "block.tameable_slimes.dyed_alive_slime": "Bloque de Baba Viva",
+      "block.tameable_slimes.alive_slime": "Bloque de Baba Viva",
+      "block.tameable_slimes.slime_mixer": "Mezclador de Slime",
+      "gamerule.TameableSlimes_DyedRate.description": "La % probabilidad de que los Slimes domesticables aparezcan con un Color Aleatorio (limitado a los Tintes de Vanilla)",
+      "item.tameable_slimes.living_slime": "Bola de Babosa Viva",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Botella de Limo Vivo",
+      "gamerule.TameableSlimes_Living_DropRate": "Ratio de Caída de Slimes Domesticables"
+    },
+    "nl_nl": {
+      "gamerule.TameableSlimes_MergeColors": "Tembaar Slijm Mengt Kleuren",
+      "gamerule.TameableSlimes_SpawnRate": "Spawnpercentage van tembare Slimes",
+      "gamerule.TameableSlimes_DyedRate": "Tembaar Slijm Verfpercentage",
+      "gamerule.TameableSlimes_MergeColors.description": "Het verven van een al geverfde Slime zal de verven samenvoegen met behulp van een RGB-systeem",
+      "gamerule.TameableSlimes_Living_DropRate.description": "De % kans om een Slimeball te vervangen door een Living Slimeball uit de slimes doodsbuit",
+      "gamerule.TameableSlimes_SpawnRate.description": "De % kans om een Vanilla Slime te vervangen door een Tamable Slime bij het spawnen",
+      "item.tameable_slimes.living_slime_bottle": "Fles Levende Slijm",
+      "item.tameable_slimes.dyeable_slime_ball": "Slijmbal",
+      "item.tameable_slimes.dyed_living_slime": "Levende Slijmbal",
+      "block.tameable_slimes.dyed_alive_slime": "Levend Slijmblok",
+      "block.tameable_slimes.alive_slime": "Levend Slijmblok",
+      "block.tameable_slimes.slime_mixer": "Slijm Mixer",
+      "gamerule.TameableSlimes_DyedRate.description": "De % kans dat een tembare Slime met een willekeurige kleur verschijnt (beperkt tot Vanilla Kleurstoffen)",
+      "item.tameable_slimes.living_slime": "Levende Slijmbal",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Fles Levende Slijm",
+      "gamerule.TameableSlimes_Living_DropRate": "Drop Rate van Tembare Slijmen"
+    },
+    "fr_ca": {
+      "gamerule.TameableSlimes_MergeColors": "Les Slimes Apprivoisables Fusionnent les Couleurs",
+      "gamerule.TameableSlimes_SpawnRate": "Taux d\u0027apparition des Slimes apprivoisables",
+      "gamerule.TameableSlimes_DyedRate": "Taux de Teinture des Slimes Apprivoisables",
+      "gamerule.TameableSlimes_MergeColors.description": "La teinture d\u0027un Slime déjà teint fusionnera les teintures en utilisant un système RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "La % de chance de remplacer une Slimeball par une Slimeball vivante dans le butin de mort des slimes",
+      "gamerule.TameableSlimes_SpawnRate.description": "La % de chance de remplacer un Slime Vanille par un Slime Apprivoisable lors de l\u0027apparition",
+      "item.tameable_slimes.living_slime_bottle": "Bouteille de Slime Vivant",
+      "item.tameable_slimes.dyeable_slime_ball": "Boule de bave",
+      "item.tameable_slimes.dyed_living_slime": "Boule de Slime Vivante",
+      "block.tameable_slimes.dyed_alive_slime": "Bloc de Slime Vivant",
+      "block.tameable_slimes.alive_slime": "Bloc de Slime Vivant",
+      "block.tameable_slimes.slime_mixer": "Mélangeur de Slime",
+      "gamerule.TameableSlimes_DyedRate.description": "La % de chance qu\u0027un Slime apprivoisable apparaisse avec une couleur aléatoire (limitée aux teintures Vanilla)",
+      "item.tameable_slimes.living_slime": "Boule de Slime Vivante",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Bouteille de Slime Vivant",
+      "gamerule.TameableSlimes_Living_DropRate": "Taux de chute des Slimes apprivoisables"
+    },
+    "sv_se": {
+      "gamerule.TameableSlimes_MergeColors": "Tämjbara slem färgsammanslagning",
+      "gamerule.TameableSlimes_SpawnRate": "Tämjbara slemmars spawnhastighet",
+      "gamerule.TameableSlimes_DyedRate": "Tämjbara Slem Färgningsfrekvens",
+      "gamerule.TameableSlimes_MergeColors.description": "Att färga en redan färgad Slime kommer att sammanfoga färgerna med hjälp av ett RGB-system",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% chansen att ersätta en Slimeball med en Living Slimeball från slimes dödsbyte",
+      "gamerule.TameableSlimes_SpawnRate.description": "% chansen att ersätta en Vanilj-slime med en Tambar-slime vid framkallning",
+      "item.tameable_slimes.living_slime_bottle": "Flaska med levande slem",
+      "item.tameable_slimes.dyeable_slime_ball": "Slemmig boll",
+      "item.tameable_slimes.dyed_living_slime": "Levande slemklump",
+      "block.tameable_slimes.dyed_alive_slime": "Levande slemblock",
+      "block.tameable_slimes.alive_slime": "Levande slemblock",
+      "block.tameable_slimes.slime_mixer": "Slem Mixer",
+      "gamerule.TameableSlimes_DyedRate.description": "% chansen att en tambar Slime spawnar med en slumpmässig färg (begränsad till Vanilla Färger)",
+      "item.tameable_slimes.living_slime": "Levande slemklump",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Flaska med levande slem",
+      "gamerule.TameableSlimes_Living_DropRate": "Tämjbara Slemmors Nedfallsfrekvens"
+    },
+    "da_dk": {
+      "gamerule.TameableSlimes_MergeColors": "Tæmbare Slimes Blander Farver",
+      "gamerule.TameableSlimes_SpawnRate": "Tambarlige Slimers Spawn Rate",
+      "gamerule.TameableSlimes_DyedRate": "Tæmmelige Slims Farvet Rate",
+      "gamerule.TameableSlimes_MergeColors.description": "Farvning af en allerede farvet Slime vil flette farverne ved hjælp af et RGB-system",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% Chance for at erstatte en Slimeball med en Levende Slimeball fra slimes død loot",
+      "gamerule.TameableSlimes_SpawnRate.description": "% Chance for at erstatte en Vanilla Slime med en Tamable Slime ved Spawning",
+      "item.tameable_slimes.living_slime_bottle": "Flaske med Levende Slim",
+      "item.tameable_slimes.dyeable_slime_ball": "Slimeball",
+      "item.tameable_slimes.dyed_living_slime": "Levende Slimeball",
+      "block.tameable_slimes.dyed_alive_slime": "Levende Slim Blok",
+      "block.tameable_slimes.alive_slime": "Levende Slim Blok",
+      "block.tameable_slimes.slime_mixer": "Slim Blander",
+      "gamerule.TameableSlimes_DyedRate.description": "Chancen % for at en tambar Slime spawner med en tilfældig farve (begrænset til Vanilla Farvestoffer)",
+      "item.tameable_slimes.living_slime": "Levende Slimeball",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Flaske med Levende Slim",
+      "gamerule.TameableSlimes_Living_DropRate": "Tambarlige Slimers Drop Rate"
+    },
+    "bg_bg": {
+      "gamerule.TameableSlimes_MergeColors": "Приручаемите слизи се сливат в цветове",
+      "gamerule.TameableSlimes_SpawnRate": "Скорост на появяване на приручваеми слизи",
+      "gamerule.TameableSlimes_DyedRate": "Степен на оцветяване на приручаеми слизи",
+      "gamerule.TameableSlimes_MergeColors.description": "Оцветяването на вече оцветен Слайм ще съчетае боите, използвайки RGB система",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% Шанс за замяна на Слаймбол с Жив Слаймбол от плячката на умрялото слаймче",
+      "gamerule.TameableSlimes_SpawnRate.description": "% Шанс за замяна на Ванилов Слайм с Домашен Слайм при Спаунване",
+      "item.tameable_slimes.living_slime_bottle": "Бутилка с жива слиз",
+      "item.tameable_slimes.dyeable_slime_ball": "Слизеста топка",
+      "item.tameable_slimes.dyed_living_slime": "Жива слизеста топка",
+      "block.tameable_slimes.dyed_alive_slime": "Блок от жива слиз",
+      "block.tameable_slimes.alive_slime": "Блок от жива слиз",
+      "block.tameable_slimes.slime_mixer": "Миксер за слайм",
+      "gamerule.TameableSlimes_DyedRate.description": "% Шанс за генериране на Приручими Слаймове със случайни цветове (ограничено до Ванилови Бои)",
+      "item.tameable_slimes.living_slime": "Жива слизеста топка",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Бутилка с жива слиз",
+      "gamerule.TameableSlimes_Living_DropRate": "Шанс за падане на Приручаеми Слаймове"
+    },
+    "fi_fi": {
+      "gamerule.TameableSlimes_MergeColors": "Kesytettävät limat yhdistävät värejä",
+      "gamerule.TameableSlimes_SpawnRate": "Kesytettävien limojen ilmestymisnopeus",
+      "gamerule.TameableSlimes_DyedRate": "Kesytettävien limojen värjäysaste",
+      "gamerule.TameableSlimes_MergeColors.description": "Värjätyn liman uudelleenvärjäys yhdistää värit RGB-järjestelmän avulla",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% mahdollisuus korvata limapallo elävällä limapallolla liman kuoleman saaliista",
+      "gamerule.TameableSlimes_SpawnRate.description": "% mahdollisuus korvata Vanilla Slime Tameable Slime:lla syntymisen yhteydessä",
+      "item.tameable_slimes.living_slime_bottle": "Elävä limapullo",
+      "item.tameable_slimes.dyeable_slime_ball": "Limapallo",
+      "item.tameable_slimes.dyed_living_slime": "Elävä limapallo",
+      "block.tameable_slimes.dyed_alive_slime": "Elävä limaklöntti",
+      "block.tameable_slimes.alive_slime": "Elävä limaklöntti",
+      "block.tameable_slimes.slime_mixer": "Limasekoitin",
+      "gamerule.TameableSlimes_DyedRate.description": "% mahdollisuus, että kesytettävä lima ilmestyy satunnaisella värillä (rajoitettu Vanilla-väreihin)",
+      "item.tameable_slimes.living_slime": "Elävä limapallo",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Elävä limapullo",
+      "gamerule.TameableSlimes_Living_DropRate": "Kesytettävien limojen pudotusprosentti"
+    },
+    "en_gb": {
+      "gamerule.TameableSlimes_MergeColors": "Tameable Slimes Merge Colours",
+      "gamerule.TameableSlimes_SpawnRate": "Tameable Slimes Spawn Rate",
+      "gamerule.TameableSlimes_DyedRate": "Tameable Slimes Dyed Rate",
+      "gamerule.TameableSlimes_MergeColors.description": "Dyeing an already Dyed Slime will Merge the Dyes using an RGB System",
+      "gamerule.TameableSlimes_Living_DropRate.description": "The % Chance of replacing a Slimeball with a Living Slimeball from the slimes death loot",
+      "gamerule.TameableSlimes_SpawnRate.description": "The % Chance of replacing a Vanilla Slime with a Tameable Slime upon Spawning",
+      "item.tameable_slimes.living_slime_bottle": "Living Slime Bottle",
+      "item.tameable_slimes.dyeable_slime_ball": "Slimeball",
+      "item.tameable_slimes.dyed_living_slime": "Living Slimeball",
+      "block.tameable_slimes.dyed_alive_slime": "Living Slime Block",
+      "block.tameable_slimes.alive_slime": "Living Slime Block",
+      "block.tameable_slimes.slime_mixer": "Slime Mixer",
+      "gamerule.TameableSlimes_DyedRate.description": "The % Chance of a Tameable Slimes spawning with a Random Colour (limited to Vanilla Dyes)",
+      "item.tameable_slimes.living_slime": "Living Slimeball",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Living Slime Bottle",
+      "gamerule.TameableSlimes_Living_DropRate": "Tameable Slimes Drop Rate"
+    },
+    "ko_kr": {
+      "gamerule.TameableSlimes_MergeColors": "길들일 수 있는 슬라임 색상 병합",
+      "gamerule.TameableSlimes_SpawnRate": "길들일 수 있는 슬라임 스폰률",
+      "gamerule.TameableSlimes_DyedRate": "길들일 수 있는 슬라임의 염색 비율",
+      "gamerule.TameableSlimes_MergeColors.description": "이미 염색된 슬라임을 다시 염색하면 RGB 시스템을 사용하여 염료가 병합됩니다",
+      "gamerule.TameableSlimes_Living_DropRate.description": "슬라임의 죽음 루트에서 슬라임볼을 생명체 슬라임볼로 교체할 % 확률",
+      "gamerule.TameableSlimes_SpawnRate.description": "스폰 시 바닐라 슬라임을 길들일 수 있는 슬라임으로 교체할 % 확률",
+      "item.tameable_slimes.living_slime_bottle": "살아있는 슬라임 병",
+      "item.tameable_slimes.dyeable_slime_ball": "슬라임볼",
+      "item.tameable_slimes.dyed_living_slime": "살아있는 슬라임볼",
+      "block.tameable_slimes.dyed_alive_slime": "살아있는 슬라임 블록",
+      "block.tameable_slimes.alive_slime": "살아있는 슬라임 블록",
+      "block.tameable_slimes.slime_mixer": "슬라임 믹서",
+      "gamerule.TameableSlimes_DyedRate.description": "타메이블 슬라임이 무작위 색상(바닐라 염료로 제한)으로 생성될 % 확률",
+      "item.tameable_slimes.living_slime": "살아있는 슬라임볼",
+      "item.tameable_slimes.dyed_living_slime_bottle": "살아있는 슬라임 병",
+      "gamerule.TameableSlimes_Living_DropRate": "길들일 수 있는 슬라임 드롭률"
+    },
+    "en_us": {
+      "gamerule.TameableSlimes_MergeColors": "Tameable Slimes Merge Colors",
+      "gamerule.TameableSlimes_SpawnRate": "Tameable Slimes Spawn Rate",
+      "gamerule.TameableSlimes_DyedRate": "Tameable Slimes Dyed Rate",
+      "gamerule.TameableSlimes_MergeColors.description": "Dyeing an already Dyed Slime will Merge the Dyes using an RGB System",
+      "gamerule.TameableSlimes_Living_DropRate.description": "The % Chance of replacing a Slimeball with a Living Slimeball from the slimes death loot",
+      "gamerule.TameableSlimes_SpawnRate.description": "The % Chance of replacing a Vanilla Slime with a Tameable Slime upon Spawning",
+      "item.tameable_slimes.living_slime_bottle": "Living Slime Bottle",
+      "item.tameable_slimes.dyed_living_slime": "Living Slimeball",
+      "item.tameable_slimes.dyeable_slime_ball": "Slimeball",
+      "block.tameable_slimes.dyed_alive_slime": "Living Slime Block",
+      "block.tameable_slimes.alive_slime": "Living Slime Block",
+      "block.tameable_slimes.slime_mixer": "Slime Mixer",
+      "gamerule.TameableSlimes_DyedRate.description": "The % Chance of a Tameable Slimes spawning with a Random Color (limited to Vanilla Dyes)",
+      "item.tameable_slimes.living_slime": "Living Slimeball",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Living Slime Bottle",
+      "gamerule.TameableSlimes_Living_DropRate": "Tameable Slimes Drop Rate"
+    },
+    "uk_ua": {
+      "gamerule.TameableSlimes_MergeColors": "Приручені слизи змішують кольори",
+      "gamerule.TameableSlimes_SpawnRate": "Швидкість спавну приручних слизнів",
+      "gamerule.TameableSlimes_DyedRate": "Швидкість фарбування приручених слизнів",
+      "gamerule.TameableSlimes_MergeColors.description": "Фарбування вже пофарбованого Слизу об\u0027єднає фарби за допомогою RGB-системи",
+      "gamerule.TameableSlimes_Living_DropRate.description": "% Шанс замінити Слизову кулю на Живу слизову кулю зі здобичі після смерті слизу",
+      "gamerule.TameableSlimes_SpawnRate.description": "% Шанс заміни звичайного Слайму на приручного Слайму при спавні",
+      "item.tameable_slimes.living_slime_bottle": "Пляшка Живої Слизі",
+      "item.tameable_slimes.dyeable_slime_ball": "Слизняк",
+      "item.tameable_slimes.dyed_living_slime": "Живой слизняк",
+      "block.tameable_slimes.dyed_alive_slime": "Блок Живої Слизу",
+      "block.tameable_slimes.alive_slime": "Блок Живої Слизу",
+      "block.tameable_slimes.slime_mixer": "Міксер для слизу",
+      "gamerule.TameableSlimes_DyedRate.description": "% Шансу на появу приручуваного Слайму з випадковим кольором (обмежено до Ванільних Барвників)",
+      "item.tameable_slimes.living_slime": "Живой слизняк",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Пляшка Живої Слизі",
+      "gamerule.TameableSlimes_Living_DropRate": "Шанс випадіння приручених слизнів"
+    },
+    "zh_cn": {
+      "gamerule.TameableSlimes_MergeColors": "可驯服的史莱姆合并颜色",
+      "gamerule.TameableSlimes_SpawnRate": "可驯服史莱姆的生成率",
+      "gamerule.TameableSlimes_DyedRate": "可驯服史莱姆的染色率",
+      "gamerule.TameableSlimes_MergeColors.description": "对已经染色的史莱姆进行染色将使用RGB系统合并染料",
+      "gamerule.TameableSlimes_Living_DropRate.description": "从史莱姆死亡掉落物中替换史莱姆球为活史莱姆球的%概率",
+      "gamerule.TameableSlimes_SpawnRate.description": "生成时用可驯服的史莱姆替换香草史莱姆的%概率",
+      "item.tameable_slimes.living_slime_bottle": "活性黏液瓶",
+      "item.tameable_slimes.dyeable_slime_ball": "恶心的人",
+      "item.tameable_slimes.dyed_living_slime": "活生生的黏液球",
+      "block.tameable_slimes.dyed_alive_slime": "活体史莱姆块",
+      "block.tameable_slimes.alive_slime": "活体史莱姆块",
+      "block.tameable_slimes.slime_mixer": "粘液混合器",
+      "gamerule.TameableSlimes_DyedRate.description": "可驯服史莱姆以随机颜色（限于原版染料）生成的%概率",
+      "item.tameable_slimes.living_slime": "活生生的黏液球",
+      "item.tameable_slimes.dyed_living_slime_bottle": "活性黏液瓶",
+      "gamerule.TameableSlimes_Living_DropRate": "可驯服史莱姆掉落率"
+    },
+    "pt_pt": {
+      "gamerule.TameableSlimes_MergeColors": "Slimes Domesticáveis Misturam Cores",
+      "gamerule.TameableSlimes_SpawnRate": "Taxa de Aparecimento de Slimes Domesticáveis",
+      "gamerule.TameableSlimes_DyedRate": "Percentagem de Slimes Domesticáveis Tingidos",
+      "gamerule.TameableSlimes_MergeColors.description": "Tingir um Slime já tingido irá fundir os corantes usando um Sistema RGB",
+      "gamerule.TameableSlimes_Living_DropRate.description": "A % de probabilidade de substituir uma Bola de Slime por uma Bola de Slime Viva no loot de morte dos slimes",
+      "gamerule.TameableSlimes_SpawnRate.description": "A % de probabilidade de substituir um Slime Vanilla por um Slime Domesticável ao nascer",
+      "item.tameable_slimes.living_slime_bottle": "Garrafa de Lodo Vivo",
+      "item.tameable_slimes.dyeable_slime_ball": "Bola de gosma",
+      "item.tameable_slimes.dyed_living_slime": "Bola de baba viviente",
+      "block.tameable_slimes.dyed_alive_slime": "Bloco de Lodo Vivo",
+      "block.tameable_slimes.alive_slime": "Bloco de Lodo Vivo",
+      "block.tameable_slimes.slime_mixer": "Misturador de Slime",
+      "gamerule.TameableSlimes_DyedRate.description": "A % de probabilidade de um Slime Domesticável aparecer com uma Cor Aleatória (limitado a Tintas de Baunilha)",
+      "item.tameable_slimes.living_slime": "Bola de baba viviente",
+      "item.tameable_slimes.dyed_living_slime_bottle": "Garrafa de Lodo Vivo",
+      "gamerule.TameableSlimes_Living_DropRate": "Taxa de Queda de Slimes Domesticáveis"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Particle",
+            "children": []
+          },
+          {
+            "name": "Dyeable Slime Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "AI",
+        "children": []
+      },
+      {
+        "name": "Slime Mixer",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "tameable_slimes",
+    "modName": "Tameable Slimes",
+    "version": "1.0.1",
+    "description": "A Mcreator made mod that makes Slimes tameable",
+    "author": "Spiderman318",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/tameable-slimes",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "tameable.slimes"
+  },
+  "mcreatorVersion": 202400232117
+}
